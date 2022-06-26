@@ -1,31 +1,14 @@
 import styles from "./home.module.scss";
+import images from "../../assets/images";
 
-function Home() {
+function Home({ children }) {
   return (
-    <section>
-      <nav>
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Portfolio</li>
-          <li>Photo</li>
-          <li>Video</li>
-          <li>Testimonials</li>
-          <li>Contact</li>
-          <li>
-            <i className="fa-solid fa-magnifying-glass"></i>
-          </li>
-        </ul>
-      </nav>
-
-      <div>
-        <div>
-          <img
-            alt="logo"
-            src="https://github.com/duypham000/DreamyStudio/blob/main/src/assets/images/Logo.png"
-          />
-        </div>
-      </div>
+    <section
+      className={styles.Home}
+      style={{ backgroundImage: "url(" + images.lisaBg + ")" }}
+    >
+      <div className={styles.overlay}></div>
+      {children}
     </section>
   );
 }
