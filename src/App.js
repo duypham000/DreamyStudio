@@ -5,6 +5,7 @@ import Home from "./components/home";
 import Slider from "./components/slider";
 import NavBar from "./components/navBar";
 import ContactBar from "./components/contactBar";
+import About from "./components/about";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         </div>
         <ContactBar />
       </Home>{" "}
+      <About />
     </div>
   );
 }
