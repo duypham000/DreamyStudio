@@ -6,6 +6,7 @@ import Slider from "./components/slider";
 import NavBar from "./components/navBar";
 import ContactBar from "./components/contactBar";
 import About from "./components/about";
+import Portfolio from "./components/portfolio";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <ContactBar />
       </Home>{" "}
       <About />
+      <Portfolio />
     </div>
   );
 }
