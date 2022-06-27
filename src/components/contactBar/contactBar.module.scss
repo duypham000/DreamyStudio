@@ -11,6 +11,7 @@
     margin: 1.5rem;
     @include flexBox();
     position: relative;
+    font-size: 1.2rem;
 
     > .detail {
       @include flexBox(center, center);
@@ -25,6 +26,14 @@
       color: black;
       padding: 2rem;
       border-radius: 3rem;
+
+      display: none;
+    }
+
+    &:hover {
+      > .detail {
+        display: flex;
+      }
     }
   }
 }

@@ -5,6 +5,7 @@ function Home({ children }) {
   return (
     <section
       className={styles.Home}
+      id="home"
       style={{ backgroundImage: "url(" + images.lisaBg + ")" }}
     >
       <div className={styles.overlay}></div>
