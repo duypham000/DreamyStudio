@@ -7,6 +7,7 @@ import NavBar from "./components/navBar";
 import ContactBar from "./components/contactBar";
 import About from "./components/about";
 import Portfolio from "./components/portfolio";
+import Photos from "./components/photos";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       </Home>{" "}
       <About />
       <Portfolio />
+      <Photos />
     </div>
   );
 }
