@@ -2,27 +2,19 @@ import "./scss/_index.scss";
 import "./App.scss";
 import Home from "./components/home";
 
-import Slider from "./components/slider";
-import NavBar from "./components/navBar";
-import ContactBar from "./components/contactBar";
 import About from "./components/about";
 import Portfolio from "./components/portfolio";
 import Photos from "./components/photos";
+import Gallery from "./components/gallery";
 
 function App() {
   return (
     <div className="App">
-      <Home>
-        <NavBar />
-
-        <div>
-          <Slider />
-        </div>
-        <ContactBar />
-      </Home>{" "}
+      <Home />
       <About />
       <Portfolio />
       <Photos />
+      <Gallery />
     </div>
   );
 }

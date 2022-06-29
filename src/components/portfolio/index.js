@@ -5,7 +5,7 @@ function Portfolio() {
     <section
       id="portfolio"
       className={styles.portfolio}
-      style={{ "background-image": "url(" + images.bgImgBanner + ")" }}
+      style={{ backgroundImage: "url(" + images.bgImgBanner + ")" }}
     >
       <h2>Portfolio</h2>
       <h3>The best of 2022</h3>
