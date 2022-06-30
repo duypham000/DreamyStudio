@@ -3,6 +3,8 @@ import lisaBg from "./images/pexels-lisa-1083822.jpg";
 import avt from "./images/avt_ddets.jpg";
 import bgImgBanner from "./images/bgImgBanner.png";
 import bgVidBanner from "./images/bgVidBanner.png";
+import contactBG from "./images/contactBG.jpg";
+import footerBG from "./images/footerBG.png";
 
 import cp1 from "./images/cp1.jpg";
 import cp2 from "./images/cp2.jpg";
@@ -19,6 +21,8 @@ export default {
   avt,
   bgImgBanner,
   bgVidBanner,
+  contactBG,
+  footerBG,
   cp1,
   cp2,
   cp3,

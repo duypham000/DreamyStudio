@@ -1,0 +1,31 @@
+@import "/src/scss/index";
+
+.footer {
+  color: $white;
+  @include flexBox(center, center);
+  padding: 3rem;
+
+  > p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    width: 50%;
+    font-family: "Louis George Cafe";
+    text-align: center;
+  }
+}
+
+.contactBar {
+  @include flexBox(center, space-around, row);
+  font-size: 1.5rem;
+  > a {
+    color: $gray;
+    margin: 1.5rem;
+    @include flexBox();
+    position: relative;
+    font-size: 1.2rem;
+
+    &:hover {
+      color: $white;
+    }
+  }
+}
