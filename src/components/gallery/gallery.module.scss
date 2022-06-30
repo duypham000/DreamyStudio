@@ -1,60 +1,71 @@
 @import "/src/scss/index";
 
-.banner {
+.gallery {
+  position: relative;
   @include flexBox(center, center);
-  padding: 5rem;
-  > h2 {
-    font-family: "Red Velvet";
-    font-weight: 400;
-    font-size: 3.5rem;
-    color: $white;
-    text-transform: uppercase;
-    border-bottom: 0.15rem solid $white;
-    padding-bottom: 1.5rem;
-    margin-bottom: 1.5rem;
-  }
-  > h3 {
-    font-family: "Red Velvet";
-    font-size: 1.2rem;
-    text-align: center;
-    max-width: 60%;
-    line-height: 1.5rem;
-  }
-}
-
-.topics {
-  @include flexBox(center, center, column);
-  padding: 3rem;
-
-  .mainTopic {
-    margin-bottom: 3rem;
-  }
-  .topicList {
-    @include flexBox(center, center, row);
-  }
-}
-
-.topic {
-  @include flexBox(center, center, column);
-  img {
-    width: 80%;
-    height: 30rem;
-    object-fit: contain;
+  .banner {
+    @include flexBox(center, center);
+    padding: 5rem;
+    > h2 {
+      font-family: "Red Velvet";
+      font-weight: 400;
+      font-size: 3.5rem;
+      color: $white;
+      text-transform: uppercase;
+      border-bottom: 0.15rem solid $white;
+      padding-bottom: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    > h3 {
+      font-family: "Red Velvet";
+      font-size: 1.2rem;
+      text-align: center;
+      max-width: 60%;
+      line-height: 1.5rem;
+    }
   }
 
-  .line {
-    width: 1.5rem;
-    height: 0.2rem;
-    background-color: $black;
-    border-radius: 2rem;
-    margin: 1.2rem 0;
+  .topics {
+    @include flexBox(center, center, column);
+    padding: 3rem;
+
+    .mainTopic {
+      margin-bottom: 3rem;
+    }
+    .topicList {
+      @include flexBox(center, center, row);
+    }
   }
 
-  .desc {
-    width: 75%;
-    text-align: center;
+  .topic {
+    @include flexBox(center, center, column);
+    img {
+      width: 80%;
+      height: 30rem;
+      object-fit: contain;
+    }
+
+    .line {
+      width: 1.5rem;
+      height: 0.2rem;
+      background-color: $black;
+      border-radius: 2rem;
+      margin: 1.2rem 0;
+    }
+
+    .desc {
+      width: 75%;
+      text-align: center;
+      font-family: "Louis George Cafe";
+      font-weight: 400;
+      font-size: 1.1rem;
+    }
+  }
+
+  .moreBtn {
+    padding: 0.5rem 1.5rem;
+    border: 0.1rem solid $black;
     font-family: "Louis George Cafe";
-    font-weight: 400;
-    font-size: 1.1rem;
+    text-transform: uppercase;
   }
 }

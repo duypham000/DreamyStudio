@@ -14,7 +14,7 @@ function Topic({ link, img, desc, main }) {
 
 function Gallery() {
   return (
-    <section id="topic" className={styles.videos}>
+    <section id="topic" className={styles.gallery}>
       <div
         className={styles.banner}
         style={{ backgroundImage: "url(" + images.bgVidBanner + ")" }}
@@ -52,6 +52,10 @@ function Gallery() {
           />
         </div>
       </div>
+      {/* eslint-disable-next-line */}
+      <a className={styles.moreBtn} href="#">
+        More topic
+      </a>
     </section>
   );
 }
