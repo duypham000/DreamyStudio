@@ -10,15 +10,13 @@ function About() {
       <div className={styles.detail}>
         <h2>About us</h2>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged.
+          Không có vạch đích trong hành trình kết nối sự YÊU THƯƠNG, Dreamy
+          Wedding tự hào là thương hiệu Áo Cưới hàng đầu tại Sóc Sơn !
         </p>
         {/* eslint-disable-next-line */}
-        <a href="#">Get to know us better</a>
+        <a href="https://www.facebook.com/DreamyWeddingStudio">
+          Get to know us better
+        </a>
       </div>
     </section>
   );

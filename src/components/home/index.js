@@ -22,17 +22,21 @@ function Icon({ link, icon, detail }) {
 function ContactBar() {
   return (
     <div className={styles.contactBar}>
-      <Icon link="#" icon="fa-brands fa-facebook-f" detail="Phạm Khánh Duy" />
-      <Icon link="#" icon="fa-solid fa-phone" detail="0344848305" />
       <Icon
-        link="#"
+        link="https://www.facebook.com/DreamyWeddingStudio/"
+        icon="fa-brands fa-facebook-f"
+        detail="DreamyStudio"
+      />
+      <Icon link="0963650595" icon="fa-solid fa-phone" detail="0963650595" />
+      <Icon
+        link="https://www.google.com/maps/dir/20.9831467,105.8016581/21.2545218,105.8482676/@21.1187078,105.6738647,11z/data=!3m1!4b1!4m4!4m3!1m1!4e1!1m0"
         icon="fa-solid fa-map"
-        detail="Bắc Phú - Sóc Sơn - Hà Nội"
+        detail="Số 59 Tổ 12 TT Sóc Sơn - Hà Nội"
       />
       <Icon
         link="#"
         icon="fa-solid fa-envelope"
-        detail="duypham05082002@gmail.com"
+        detail="dreamy.studio@gmail.com"
       />
     </div>
   );

@@ -8,10 +8,15 @@ function Portfolio() {
       style={{ backgroundImage: "url(" + images.bgImgBanner + ")" }}
     >
       <h2>Portfolio</h2>
-      <h3>The best of 2022</h3>
-      <h4>After Wedding, Engagement, Love Story, Wedding</h4>
+      <h3>DREAMY SHINING 2022</h3>
+      <h4>
+        Nhẹ nhàng,sang trọng và tinh tế nhưng vẫn không kém phần lộng lẫy, nổi
+        bật
+      </h4>
       {/* eslint-disable-next-line */}
-      <a href="#">More photos</a>
+      <a href="https://www.facebook.com/DreamyWeddingStudio/photos/?ref=page_internal">
+        More photos
+      </a>
     </section>
   );
 }

@@ -21,9 +21,9 @@ function Gallery() {
       >
         <h2>Gallery</h2>
         <h3>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut neque
-          nisl, dignissim vel lacus eu, ultrices porttitor erat. Mauris
-          ullamcorper rutrum felis, et dictum eros.
+          Với những mẫu thiết kế sang trọng, những dụng cụ chuyên nghiệp, quy
+          trình làm việc hiệu quả, chúng tôi hân hạnh mang đến những bức ảnh
+          khiến khách hàng hơn cả hài lòng
         </h3>
       </div>
       <div className={styles.topics}>
@@ -31,24 +31,24 @@ function Gallery() {
           <Topic
             link="#"
             img={images.cp1}
-            desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum rutrum velit vitae dapibus. Nunc congue imperdiet est luctus lobortis. Donec eu odio et ipsum."
+            desc="Mẫu thiết kế sáng trọng, ngọt ngào với tone màu trắng."
           />
         </div>
         <div className={styles.topicList}>
           <Topic
             link="#"
             img={images.cp2}
-            desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            desc="Sự kết hợp đen trắng đầy vẻ thanh lịch."
           />
           <Topic
             link="#"
             img={images.cp3}
-            desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            desc="Bộ ảnh cưới mang đậm khí chất mông cổ."
           />
           <Topic
             link="#"
             img={images.cp4}
-            desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            desc="Xu hướng chụp ảnh cưới tối giản."
           />
         </div>
       </div>

@@ -18,19 +18,19 @@ function Testimonials() {
       <h3>What they say</h3>
       <div className={styles.list}>
         <Tes
-          img={images.cp4}
-          name="Duy Pham"
-          detail="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat ullamcorper elit et efficitur. Sed dapibus orci eu justo faucibus facilisis. Curabitur rhoncus scelerisque vulputate. Donec ut cursus ante. Vestibulum a fermentum leo, id mollis mauris. Nunc vitae pellentesque arcu. Sed nisi purus, scelerisque condimentum odio gravida, dignissim blandit lorem."
+          img={images.cp5}
+          name="Do Hang"
+          detail="Em đã sử dụng dịch vụ của DREAMY STUDIO và em cảm thấy trên cả ưng ý ạ ! Em xin cảm ơn ekip chụp cực kỳ có tâm ạ, nhất là cậu em phụ ánh sáng cực kỳ vui tính."
         />
         <Tes
-          img={images.cp5}
-          name="Sang Le"
-          detail="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat ullamcorper elit et efficitur. Sed dapibus orci eu justo faucibus facilisis. Curabitur rhoncus scelerisque vulputate. Donec ut cursus ante. Vestibulum a fermentum leo, id mollis mauris. Nunc vitae pellentesque arcu. Sed nisi purus, scelerisque condimentum odio gravida, dignissim blandit lorem."
+          img={images.cp3}
+          name="Do Hang"
+          detail="Chụp ảnh có tâm, Make đẹp. Thợ rất nhiệt tình và tỉ mỉ đến từng chi tiết, rất cảm ơn ekip đã đồng hành cùng vợ chồng chúng tôi trong suốt tour chụp ảnh dài này."
         />
         <Tes
           img={images.cp6}
           name="Khanh An"
-          detail="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat ullamcorper elit et efficitur. Sed dapibus orci eu justo faucibus facilisis. Curabitur rhoncus scelerisque vulputate. Donec ut cursus ante. Vestibulum a fermentum leo, id mollis mauris. Nunc vitae pellentesque arcu. Sed nisi purus, scelerisque condimentum odio gravida, dignissim blandit lorem."
+          detail="Chúng tôi rất may mắn khi đã chọn đúng studio có tâm như Dreamy, cách tổ chức chuyên nghiệp, thao tác gọn gàng, dàn nhân viên vui tính thân thiện."
         />
       </div>
       {/* eslint-disable-next-line */}

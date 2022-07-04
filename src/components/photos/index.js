@@ -8,7 +8,7 @@ function Photos() {
         <img src={images.cp1} alt="anh cap doi"></img>
       </div>
       <div className={styles.imgCp}>
-        <img src={images.cp2} alt="anh cap doi"></img>
+        <img src={images.cp5} alt="anh cap doi"></img>
       </div>
       <div className={styles.imgCp}>
         <img src={images.cp3} alt="anh cap doi"></img>
@@ -17,7 +17,7 @@ function Photos() {
         <img src={images.cp4} alt="anh cap doi"></img>
       </div>
       <div className={styles.imgCp}>
-        <img src={images.cp5} alt="anh cap doi"></img>
+        <img src={images.cp2} alt="anh cap doi"></img>
       </div>
       <div className={styles.imgCp}>
         <img src={images.cp6} alt="anh cap doi"></img>

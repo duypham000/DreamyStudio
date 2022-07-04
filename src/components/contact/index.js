@@ -33,9 +33,8 @@ function Contact() {
         <img src={images.cp7} alt="contact" />
         <form className={styles.contactForm}>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ex
-            urna, ornare vel cursus vel, fermentum sit amet quam. Aliquam ut
-            porta ligula. Maecenas porttitor.
+            Để lại thông tin của bạn tại đây, chúng tôi sẽ liên hệ với bạn sớm
+            nhất.
           </p>
           <Input label="Tên" id="name" />
           <Input label="Số điện thoại" id="sbj" />

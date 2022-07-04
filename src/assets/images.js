@@ -1,6 +1,6 @@
 import logo from "./images/Logo.png";
 import lisaBg from "./images/pexels-lisa-1083822.jpg";
-import avt from "./images/avt_ddets.jpg";
+import avt from "./images/avt.png";
 import bgImgBanner from "./images/bgImgBanner.png";
 import bgVidBanner from "./images/bgVidBanner.png";
 import contactBG from "./images/contactBG.jpg";
