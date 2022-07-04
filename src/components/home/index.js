@@ -39,9 +39,6 @@ function ContactBar() {
 }
 
 function NavBar({ status }) {
-  if (status) {
-    console.log("hello");
-  }
   return (
     <nav className={clsx(styles.navBar, status ? styles.active : "")}>
       <ul>
