@@ -35,4 +35,36 @@
       border: 1px solid black;
     }
   }
+
+  @include tablet {
+    @include flexBox(center, center, column);
+    > .image {
+      margin: 0;
+    }
+
+    > .detail {
+      margin: 0;
+      @include flexBox(center, center, column);
+
+      > p {
+        text-align: center;
+      }
+    }
+  }
+
+  @include mobile {
+    @include flexBox(center, center, column);
+    > .image {
+      margin: 0;
+    }
+
+    > .detail {
+      margin: 0;
+      @include flexBox(center, center, column);
+
+      > p {
+        text-align: center;
+      }
+    }
+  }
 }

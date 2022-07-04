@@ -22,6 +22,12 @@
   > .list {
     @include flexBox(center, space-between, row);
   }
+
+  @include mobile {
+    > .list {
+      @include flexBox(center, space-between, column);
+    }
+  }
 }
 
 .tes {
@@ -53,6 +59,13 @@
     line-height: 1.2rem;
     text-align: center;
     width: 80%;
+  }
+
+  @include mobile {
+    width: calc(80%);
+    > * {
+      text-align: center;
+    }
   }
 }
 .btnMore {

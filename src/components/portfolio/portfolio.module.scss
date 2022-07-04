@@ -31,4 +31,15 @@
     font-weight: 400;
     font-size: 1.2rem;
   }
+
+  @include tablet {
+    > h4 {
+      text-align: center;
+    }
+  }
+  @include mobile {
+    > * {
+      text-align: center;
+    }
+  }
 }

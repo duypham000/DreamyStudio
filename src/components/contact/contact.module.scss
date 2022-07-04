@@ -49,6 +49,33 @@
       }
     }
   }
+
+  @include tablet {
+    > .formContain {
+      > img {
+        display: none;
+      }
+      > form {
+        width: 100%;
+      }
+    }
+  }
+
+  @include mobile {
+    > * {
+      text-align: center;
+    }
+    > .formContain {
+      width: 80%;
+
+      > img {
+        display: none;
+      }
+      > form {
+        width: 100%;
+      }
+    }
+  }
 }
 
 .inptGroup {

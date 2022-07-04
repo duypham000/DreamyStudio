@@ -1,5 +1,4 @@
 import styles from "./footer.module.scss";
-import { NavBar } from "../home";
 import images from "../../assets/images";
 
 function Icon({ link, icon }) {
@@ -29,7 +28,17 @@ function Footer() {
       className={styles.footer}
       style={{ backgroundImage: "url(" + images.footerBG + ")" }}
     >
-      <NavBar />
+      <nav className={styles.navBar}>
+        <ul>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#photo">Photo</a>
+          <a href="#topic">Topics</a>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#contact">Contact</a>
+        </ul>
+      </nav>
       <ContactBar />
 
       <p className={styles.desc}>

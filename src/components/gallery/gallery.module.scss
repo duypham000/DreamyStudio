@@ -34,6 +34,12 @@
     }
     .topicList {
       @include flexBox(center, center, row);
+      @include mobile {
+        @include flexBox(center, center, column);
+        > * {
+          margin-bottom: 1rem;
+        }
+      }
     }
   }
 
@@ -59,6 +65,18 @@
       font-family: "Louis George Cafe";
       font-weight: 400;
       font-size: 1.1rem;
+    }
+
+    @include tablet {
+      > img {
+        height: 20rem;
+      }
+    }
+
+    @include mobile {
+      > img {
+        height: 15rem;
+      }
     }
   }
 

@@ -46,4 +46,23 @@
       grid-column: 3 / 4;
     }
   }
+
+  @include mobile {
+    display: block;
+    height: auto;
+    position: relative;
+    > .imgCp {
+      > img {
+        &:nth-child(5) {
+          display: none;
+        }
+        &:nth-child(6) {
+          display: none;
+        }
+        &:nth-child(7) {
+          display: none;
+        }
+      }
+    }
+  }
 }
