@@ -15,6 +15,10 @@ function App() {
   const [showBtn, setShowBtn] = useState(false);
 
   useEffect(() => {
+    document.title = "Dreamy Studio";
+  });
+
+  useEffect(() => {
     const handelScroll = () => {
       setShowBtn(document.scrollY > 200);
     };
