@@ -1,2 +1,1 @@
-# DreamyStudio
-a wedding studio photoshoot SPA web
+# dreamy.github.io
