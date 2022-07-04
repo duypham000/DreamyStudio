@@ -2,7 +2,7 @@
   "files": {
     "main.css": "./static/css/main.c057ae74.css",
     "main.js": "./static/js/main.7485e771.js",
-    "static/js/787.14b1f4bb.chunk.js": "./.static/js/787.14b1f4bb.chunk.js",
+    "static/js/787.14b1f4bb.chunk.js": "./static/js/787.14b1f4bb.chunk.js",
     "static/media/contactBG.jpg": "./static/media/contactBG.569fa91421119bb760c5.jpg",
     "static/media/cp5.jpg": "./static/media/cp5.e6c20521dd55594c0ed2.jpg",
     "static/media/cp1.jpg": "./static/media/cp1.7129d2dfc68d1e4839c3.jpg",
